@@ -1,0 +1,8 @@
+<launch>
+  <node name="sendInfo" pkg="homework_1" type="sendInfo"
+        output="screen" launch-prefix="gnome-terminal -x sh -c" />
+  <node name="receiveChangeInfo" pkg="homework_1" type="receiveChangeInfo"
+        output="screen" launch-prefix="gnome-terminal -x sh -c"/>
+  <node name="printInfo" pkg="homework_1" type="printInfo"
+        output="screen" launch-prefix="gnome-terminal -x sh -c"/>
+</launch>
